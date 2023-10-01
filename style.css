@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+    background-color: #FFF;
+}
+
+.wrapper {
+    width: 600px;
+    height: 700px;
+    background-color: #222;
+    border-radius: 50px;
+    border: 10px solid #828282;
+    margin: auto;
+}
+
+.time {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    color: #FFF;
+    font: 400 30px K2D;
+    margin-top: 56px;
+    margin-left: 440px;
+}
+
+.img {
+    background-image: url(./assets/Mask\ group.svg);
+    width: 472px;
+    height: 472px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: 9px;
+}
+
+.year p {
+    color: #FFF;
+    font: 400 20px K2D;
+    margin-top: 16.5px;
+    /* margin: auto; */
+    margin-left: 240px;
+}
+
+.year .retangle {
+    background-image: url(./assets/Rectangle\ 8.png);
+    width: 230px;
+    height: 10px;
+    border-radius: 1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: 12px;
+}
