@@ -21,12 +21,10 @@ body {
 }
 
 .time {
-    /* display: flex; */
-    /* justify-content: space-between; */
     color: #FFF;
     font: 400 30px K2D;
-    margin-top: 56px;
-    margin-left: 440px;
+    margin-top: 40px;
+    margin-left: 400px;
 }
 
 .img {
@@ -36,7 +34,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     margin: auto;
-    margin-top: 9px;
+    margin-top: 29px;
 }
 
 .year p {
