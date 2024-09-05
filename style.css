@@ -27,20 +27,74 @@ body {
     margin-left: 400px;
 }
 
-.img {
-    background-image: url(./assets/Mask\ group.svg);
+/* .img {
+    background-image: url(./assets/EllipseBig.svg);
     width: 472px;
     height: 472px;
     background-repeat: no-repeat;
     background-size: contain;
     margin: auto;
     margin-top: 29px;
+} */
+
+.elipse_big{
+    background-image: url(./assets/EllipseBig.svg);
+    width: 451px;
+    height: 451px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: 29px;
+    position: relative;
 }
 
+.elipse_big_move{
+    background-image: url(./assets/EllipseBigMove.svg);
+    width: 449px;
+    height: 440px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin: auto; */
+    position: relative;
+    top: 10px;
+    left: 2px;
+    animation: move 2s linear infinite;
+}
+
+@keyframes move {
+
+    from{
+        transform:rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+.elipse_medium{
+    background-image: url(./assets/EllipseMedium.svg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: -425px;
+}
+.elipse_small{
+    background-image: url(./assets/EllipseSmall.svg);
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: -375px;
+}
 .year p {
     color: #FFF;
     font: 400 20px K2D;
-    margin-top: 16.5px;
+    margin-top: 80px;
     /* margin: auto; */
     margin-left: 240px;
 }
