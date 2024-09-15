@@ -37,34 +37,34 @@ body {
     margin-top: 29px;
 } */
 
-.elipse_big{
+.elipse_big {
     background-image: url(./assets/EllipseBig.svg);
-    width: 451px;
-    height: 451px;
+    width: 450px;
+    height: 450px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: auto;
-    margin-top: 29px;
-    position: relative;
+    /* margin: auto; */
+    top: 120px;
+    left: 375px;
+    position: absolute;
 }
 
-.elipse_big_move{
+.elipse_big_move {
     background-image: url(./assets/EllipseBigMove.svg);
     width: 449px;
     height: 440px;
     background-repeat: no-repeat;
     background-size: contain;
-    /* margin: auto; */
     position: relative;
     top: 10px;
-    left: 2px;
-    animation: move 2s linear infinite;
+    /* left: 375px; */
+    /* animation: move 2s linear infinite; */
 }
 
 @keyframes move {
 
-    from{
-        transform:rotate(0deg);
+    from {
+        transform: rotate(0deg);
     }
 
     to {
@@ -73,29 +73,59 @@ body {
 
 }
 
-.elipse_medium{
+.elipse_medium {
     background-image: url(./assets/EllipseMedium.svg);
     width: 400px;
     height: 400px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: auto;
-    margin-top: -425px;
+    /* margin: auto;
+    margin-top: 60px; */
+    position: absolute;
+    top: 145px;
+    left: 400px;
 }
-.elipse_small{
+
+.elipse_medium_move {
+    background-image: url(./assets/EllipseMediumMove.svg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 0px;
+    left: 120px;
+    /* animation: move2 2s linear infinite; */
+}
+
+@keyframes move2 {
+
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+
+}
+.elipse_small {
     background-image: url(./assets/EllipseSmall.svg);
     width: 350px;
     height: 350px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: auto;
-    margin-top: -375px;
+    /* margin: auto;
+    margin-top: -375px; */
+    position: absolute;
+    top: 170px;
+    left: 425px;
 }
+
 .year p {
     color: #FFF;
     font: 400 20px K2D;
-    margin-top: 80px;
-    /* margin: auto; */
+    margin-top: 510px;
     margin-left: 240px;
 }
 
