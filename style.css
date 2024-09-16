@@ -25,6 +25,17 @@ body {
     font: 400 30px K2D;
     margin-top: 40px;
     margin-left: 400px;
+    animation: ani 1.5s forwards;
+}
+
+@keyframes ani {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /* .img {
@@ -37,29 +48,41 @@ body {
     margin-top: 29px;
 } */
 
+.code{
+    background-image: url(./assets/CODE.svg);
+    width: 54px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 3px;
+    left: 15vw;
+    z-index: 1;
+}
+
 .elipse_big {
     background-image: url(./assets/EllipseBig.svg);
     width: 450px;
     height: 450px;
     background-repeat: no-repeat;
     background-size: contain;
-    /* margin: auto; */
-    top: 120px;
-    left: 375px;
+    top: 110px;
+    left: 35vw;
     position: absolute;
 }
 
 .elipse_big_move {
     background-image: url(./assets/EllipseBigMove.svg);
     width: 449px;
-    height: 440px;
+    height: 438px;
     background-repeat: no-repeat;
     background-size: contain;
-    position: relative;
+    position: absolute;
     top: 10px;
-    /* left: 375px; */
+    left: 2px;
     /* animation: move 2s linear infinite; */
 }
+
 
 @keyframes move {
 
@@ -82,33 +105,34 @@ body {
     /* margin: auto;
     margin-top: 60px; */
     position: absolute;
-    top: 145px;
-    left: 400px;
+    top: 135px;
+    left: 36.7vw;
 }
 
 .elipse_medium_move {
     background-image: url(./assets/EllipseMediumMove.svg);
-    width: 400px;
-    height: 400px;
+    width: 278px;
+    height: 398px;
     background-repeat: no-repeat;
     background-size: contain;
-    position: relative;
-    top: 0px;
-    left: 120px;
-    /* animation: move2 2s linear infinite; */
+    position: absolute;
+    top: 3px;
+    left: 122px;
+    /* animation: move 2s linear infinite; */
 }
 
 @keyframes move2 {
 
     from {
-        transform: rotate(360deg);
-    }
-
-    to {
         transform: rotate(0deg);
     }
 
+    to {
+        transform: rotate(360deg);
+    }
+
 }
+
 .elipse_small {
     background-image: url(./assets/EllipseSmall.svg);
     width: 350px;
@@ -118,15 +142,39 @@ body {
     /* margin: auto;
     margin-top: -375px; */
     position: absolute;
-    top: 170px;
-    left: 425px;
+    top: 160px;
+    left: 38.35vw;
+}
+
+.elipse_small_move {
+    background-image: url(./assets/EllipseSmallMove.svg);
+    width: 151px;
+    height: 96px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: 11.5vw;
+  /* animation: move 2s linear infinite; */
+}
+
+.entry_watch{
+    background-image: url(./assets/ENTRY\ Watch.svg);
+    width: 252px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 325px;
+    left: 41.5vw;
 }
 
 .year p {
     color: #FFF;
     font: 400 20px K2D;
-    margin-top: 510px;
+    margin-top: 500px;
     margin-left: 240px;
+    animation: ani 1.5s forwards;
 }
 
 .year .retangle {
